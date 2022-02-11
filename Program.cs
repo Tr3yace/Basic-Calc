@@ -7,28 +7,28 @@ namespace Random
     {
         static void Main(string[]args)
         {
-            string name;
-            string city;
+            //string name;
+           // string city;
             sbyte age;
             int pin;
             int house_number;
  
             
             Console.WriteLine("Enter your name\n");
-            name = Console.ReadLine();
+           var name = Console.ReadLine();
  
             Console.WriteLine("Enter Your City\n");
-            city = Console.ReadLine();
+           var  city = Console.ReadLine();
  
             
             Console.WriteLine("Enter your age\n");
-            age = sbyte.Parse(Console.ReadLine());
+           age = sbyte.Parse(Console.ReadLine());
 
             
             
  
             Console.WriteLine("Enter your pin\n");
-            pin = Int32.Parse(Console.ReadLine());
+           pin = Int32.Parse(Console.ReadLine());
 
             Console.WriteLine("Enter your house number?\n");
             house_number = Int32.Parse(Console.ReadLine());
