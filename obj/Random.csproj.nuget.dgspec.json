@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Samue\\Random\\Random.csproj": {}
+    "c:\\Users\\Samue\\Random\\Random.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Samue\\Random\\Random.csproj": {
+    "c:\\Users\\Samue\\Random\\Random.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Samue\\Random\\Random.csproj",
+        "projectUniqueName": "c:\\Users\\Samue\\Random\\Random.csproj",
         "projectName": "Random",
-        "projectPath": "C:\\Users\\Samue\\Random\\Random.csproj",
+        "projectPath": "c:\\Users\\Samue\\Random\\Random.csproj",
         "packagesPath": "C:\\Users\\Samue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Samue\\Random\\obj\\",
+        "outputPath": "c:\\Users\\Samue\\Random\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Samue\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -7,46 +7,50 @@ namespace Random
     {
         static void Main(string[]args)
         {
-            //string name;
-           // string city;
-            sbyte age;
-            int pin;
-            int house_number;
- 
-            
-            Console.WriteLine("Enter your name\n");
-           var name = Console.ReadLine();
- 
-            Console.WriteLine("Enter Your City\n");
-           var  city = Console.ReadLine();
- 
-            
-            Console.WriteLine("Enter your age\n");
-           age = sbyte.Parse(Console.ReadLine());
+         int opt, num1, num2;
+         float result;
 
-            
-            
- 
-            Console.WriteLine("Enter your pin\n");
-           pin = Int32.Parse(Console.ReadLine());
+         System.Console.WriteLine("\n\tMenu");
+         System.Console.WriteLine("\n Press 1 for addition");
+         System.Console.WriteLine("\n Press 2 for subtraction");
+         System.Console.WriteLine("\n Press 3 for multiplication");
+         System.Console.WriteLine("\n Press 4 for division");
 
-            Console.WriteLine("Enter your house number?\n");
-            house_number = Int32.Parse(Console.ReadLine());
- 
-            
-            Console.WriteLine("==============");
-            Console.WriteLine("Your Complete Address:");
-            Console.WriteLine("============\n");
- 
-            Console.WriteLine($"Name {name} ");
-            Console.WriteLine($"City {city} ");
-            Console.WriteLine($"Age {age}");
-            Console.WriteLine($"Pin  {pin}");
-            Console.WriteLine($"House Number {house_number} ");
-            Console.WriteLine("===============");
- 
-            Console.ReadLine();
+         System.Console.WriteLine("\n Enter your first number?");
+         num1 = Convert.ToInt32(Console.ReadLine());
 
+         System.Console.WriteLine("\n Enter your second number?");
+         num2 = Convert.ToInt32(Console.ReadLine()); 
+
+         System.Console.WriteLine("Enter your options");
+         opt = Convert.ToInt32(Console.ReadLine());
+         
+         if(opt == 1)
+         {
+             result = num1 + num2;
+             System.Console.WriteLine($"The total of both numbers is {result}");
+         }
+        else if(opt ==2)
+        {
+            result = num1 - num2;
+            System.Console.WriteLine($"The answer is {result} ");
+        }
+        else if(opt ==3)
+        {
+            result = num1 * num2;
+            System.Console.WriteLine($"The answer of both numbers is {result}");
+        }
+        else if(opt == 4)
+        {
+           result =(float)(num1)/(float)(num2);
+           System.Console.WriteLine($"The answer is {result}", num1/num2,result); 
+        }
+        else
+        {
+            System.Console.WriteLine("Invalid option, see menu");
+        }
+
+         Console.ReadLine();
         }
     }
 }
