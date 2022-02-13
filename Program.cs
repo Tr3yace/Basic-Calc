@@ -8,7 +8,7 @@ namespace Random
         static void Main(string[]args)
         {
          int opt, num1, num2;
-         float result;
+         decimal result;
 
          System.Console.WriteLine("\n\tMenu");
          System.Console.WriteLine("\n Press 1 for addition");
@@ -42,7 +42,7 @@ namespace Random
         }
         else if(opt == 4)
         {
-           result =(float)(num1)/(float)(num2);
+           result =(decimal)(num1)/(decimal)(num2);
            System.Console.WriteLine($"The answer is {result}", num1/num2,result); 
         }
         else
